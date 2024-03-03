@@ -35,7 +35,15 @@ export default function Home({ data }: Props) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main style={{ width: "100%" }}>
-                <p>dev</p>
+                <p
+                    style={{
+                        textAlign: "center",
+                        fontWeight: "600",
+                        fontSize: "30px",
+                    }}
+                >
+                    dev
+                </p>
                 <div id="carouselExampleIndicators" className="carousel slide">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
