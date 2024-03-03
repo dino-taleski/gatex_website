@@ -1,0 +1,24 @@
+.page_layout {
+    display: flex;
+}
+
+.filters {
+    width: 30%;
+    padding-inline-start: 20px;
+}
+
+.product_filter {
+    padding: 0;
+    padding-left: 20px;
+}
+
+.product_filter li {
+    list-style: none;
+    padding-bottom: 10px;
+    transition: font-weight 0.2s ease-in-out;
+}
+
+.product_filter li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}

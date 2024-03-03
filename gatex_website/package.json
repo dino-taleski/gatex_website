@@ -1,0 +1,29 @@
+{
+    "name": "gatex_web",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "server": "json-server --watch data/productsDB.json --port 5002"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "jquery": "^3.7.1",
+        "json-server": "^1.0.0-alpha.23",
+        "next": "14.1.0",
+        "popper.js": "^1.16.1",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "eslint": "^8",
+        "eslint-config-next": "14.1.0",
+        "typescript": "^5"
+    }
+}

@@ -1,0 +1,33 @@
+.product_card_content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.product_card_title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.product_card_price {
+    font-size: 20px;
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.card_button {
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.card_button:hover {
+    cursor: pointer;
+    background-color: rgb(116, 146, 211);
+    color: white;
+}

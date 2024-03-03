@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image": "/cats/duks.jpg",
+            "title": "Hoodie",
+            "productType": "hoodie",
+            "price": 250,
+            "reducedPrice": 200,
+            "isAvailable": true,
+            "isPublished": true
+        },
+        {
+            "id": 2,
+            "image": "/cats/tren.jpg",
+            "title": "Hoodie",
+            "productType": "hoodie",
+            "price": 250,
+            "reducedPrice": 200,
+            "isAvailable": true,
+            "isPublished": true
+        },
+        {
+            "id": 3,
+            "image": "/cats/tshirt.jpg",
+            "title": "Hoodie",
+            "productType": "hoodie",
+            "price": 250,
+            "reducedPrice": 200,
+            "isAvailable": true,
+            "isPublished": true
+        },
+        {
+            "id": 4,
+            "image": "/cats/duks.jpg",
+            "title": "Hoodie",
+            "productType": "hoodie",
+            "price": 250,
+            "reducedPrice": 200,
+            "isAvailable": true,
+            "isPublished": true
+        }
+    ]
+}
