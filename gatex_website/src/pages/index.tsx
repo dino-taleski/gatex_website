@@ -26,7 +26,7 @@ export default function Home({ data }: Props) {
     return (
         <>
             <Head>
-                <title>Gatex</title>
+                <title>Dev Gatex</title>
                 <meta name="description" content="Gatex Trikotaza" />
                 <meta
                     name="viewport"
