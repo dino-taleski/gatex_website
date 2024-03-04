@@ -1,3 +1,10 @@
+.main_card_div {
+    padding: 10px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px rgb(211, 211, 211);
+}
+
 .product_card_content {
     display: flex;
     justify-content: space-between;
@@ -23,7 +30,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
+    border: 1px solid rgb(175, 175, 175);
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 2px 5px 8px rgb(211, 211, 211);
+    font-weight: bold;
 }
 
 .card_button:hover {

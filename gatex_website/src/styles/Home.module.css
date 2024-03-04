@@ -5,3 +5,26 @@
 .carousel-control-next-icon {
     color: black !important;
 }
+
+.how_it_works {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.steps_style {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: rgb(74, 110, 189);
+}
+
+.steps_text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* optimize for desktop */

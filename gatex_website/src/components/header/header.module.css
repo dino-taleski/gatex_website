@@ -35,13 +35,13 @@
 }
 
 .ul a:hover {
-    color: rgb(10, 86, 252);
+    color: rgb(116, 146, 211);
     cursor: pointer;
 }
 
 .cart:hover {
     cursor: pointer;
-    color: rgb(10, 86, 252);
+    color: rgb(116, 146, 211);
 }
 
 .cart li {

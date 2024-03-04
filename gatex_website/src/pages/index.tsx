@@ -103,6 +103,7 @@ export default function Home({ data }: Props) {
                         fontWeight: "700",
                         paddingTop: "20px",
                         paddingBottom: "20px",
+                        marginBottom: "0px",
                     }}
                 >
                     FEATURED PRODUCTS
@@ -111,7 +112,7 @@ export default function Home({ data }: Props) {
                     style={{
                         display: "grid",
                         gridTemplateColumns: "repeat(4,1fr)",
-                        gap: "10px",
+                        gap: "30px",
                         paddingInline: "10px",
                         paddingTop: "20px",
                         paddingBottom: "20px",
@@ -154,6 +155,32 @@ export default function Home({ data }: Props) {
                     })}
                 </div> */}
                 {/* render data here BE */}
+                <p
+                    style={{
+                        textAlign: "center",
+                        fontSize: "34px",
+                        fontWeight: "700",
+                        paddingTop: "20px",
+                        paddingBottom: "20px",
+                        marginBottom: "0px",
+                    }}
+                >
+                    HOW IT WORKS
+                </p>
+                <div className={styles.how_it_works}>
+                    <div>
+                        <p className={styles.steps_style}>1.</p>
+                        <p className={styles.steps_text}>Add items to cart</p>
+                    </div>
+                    <div>
+                        <p className={styles.steps_style}>2.</p>
+                        <p className={styles.steps_text}>Add delivery info</p>
+                    </div>
+                    <div>
+                        <p className={styles.steps_style}>3.</p>
+                        <p className={styles.steps_text}>Pay upon delivery</p>
+                    </div>
+                </div>
             </main>
         </>
     );

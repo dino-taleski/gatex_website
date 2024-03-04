@@ -15,10 +15,10 @@ import styles from "@/components/productCard/productCard.module.css";
 const ProductCard: React.FC = () => {
     return (
         <>
-            <div>
+            <div className={styles.main_card_div}>
                 <div>
                     <img
-                        style={{ width: "100%" }}
+                        style={{ width: "100%", borderRadius: "10px" }}
                         src={"./cats/duks.jpg"}
                         alt="hoodie product"
                     />
