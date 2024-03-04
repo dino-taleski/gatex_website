@@ -19,7 +19,7 @@ const ProductCard: React.FC = () => {
                 <div>
                     <img
                         style={{ width: "100%", borderRadius: "10px" }}
-                        src={"./cats/duks.jpg"}
+                        src={"./cats/duks2.jpg"}
                         alt="hoodie product"
                     />
                 </div>

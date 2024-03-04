@@ -8,27 +8,27 @@ const Collections = () => {
                 <div className={`${styles.width_100} ${styles.cat_div}`}>
                     <img
                         className={`${styles.width_100} ${styles.img}`}
-                        src="./cats/duks.jpg"
+                        src="./cats/duks2.jpg"
                         alt=""
                     />
-                    <p>ДУКСЕРИ</p>
+                    <p>Дуксери</p>
                 </div>
                 <div className={`${styles.width_100} ${styles.cat_div}`}>
                     <img
                         className={`${styles.width_100} ${styles.img}`}
-                        src="./cats/tren.jpg"
+                        src="./cats/tren2.jpg"
                         alt=""
                     />
 
-                    <p>ТРЕНЕРКИ</p>
+                    <p>Тренерки</p>
                 </div>
                 <div className={`${styles.width_100} ${styles.cat_div}`}>
                     <img
                         className={`${styles.width_100} ${styles.img}`}
-                        src="./cats/tshirt.jpg"
+                        src="./cats/tshirt2.jpg"
                         alt=""
                     />
-                    <p>МАИЦИ</p>
+                    <p>Маици</p>
                 </div>
             </div>
         </>

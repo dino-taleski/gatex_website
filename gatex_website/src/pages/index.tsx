@@ -95,6 +95,18 @@ export default function Home({ data }: Props) {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
+                <p
+                    style={{
+                        textAlign: "center",
+                        fontSize: "34px",
+                        fontWeight: "700",
+                        paddingTop: "20px",
+                        paddingBottom: "20px",
+                        marginBottom: "0px",
+                    }}
+                >
+                    CATEGORIES
+                </p>
                 <Collections />
                 <p
                     style={{
@@ -112,8 +124,8 @@ export default function Home({ data }: Props) {
                     style={{
                         display: "grid",
                         gridTemplateColumns: "repeat(4,1fr)",
-                        gap: "30px",
-                        paddingInline: "10px",
+                        gap: "25px",
+                        paddingInline: "80px",
                         paddingTop: "20px",
                         paddingBottom: "20px",
                     }}
