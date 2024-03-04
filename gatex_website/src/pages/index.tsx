@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Collections from "@/components/collections/Collections";
 import ProductCard from "@/components/productCard/ProductCard";
+import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -193,6 +194,7 @@ export default function Home({ data }: Props) {
                         <p className={styles.steps_text}>Pay upon delivery</p>
                     </div>
                 </div>
+                <Footer />
             </main>
         </>
     );
