@@ -5,18 +5,26 @@ const Collections = () => {
     return (
         <>
             <div className={styles.collection_links}>
-                <div className={styles.cat_div}>
-                    <img className={styles.img} src="./cats/duks.jpg" alt="" />
+                <div className={`${styles.width_100} ${styles.cat_div}`}>
+                    <img
+                        className={`${styles.width_100} ${styles.img}`}
+                        src="./cats/duks.jpg"
+                        alt=""
+                    />
                     <p>ДУКСЕРИ</p>
                 </div>
-                <div className={styles.cat_div}>
-                    <img className={styles.img} src="./cats/tren.jpg" alt="" />
+                <div className={`${styles.width_100} ${styles.cat_div}`}>
+                    <img
+                        className={`${styles.width_100} ${styles.img}`}
+                        src="./cats/tren.jpg"
+                        alt=""
+                    />
 
                     <p>ТРЕНЕРКИ</p>
                 </div>
-                <div className={styles.cat_div}>
+                <div className={`${styles.width_100} ${styles.cat_div}`}>
                     <img
-                        className={styles.img}
+                        className={`${styles.width_100} ${styles.img}`}
                         src="./cats/tshirt.jpg"
                         alt=""
                     />

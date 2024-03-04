@@ -46,13 +46,6 @@ export default function Home({ data }: Props) {
                 </p>
                 <div id="carouselExampleIndicators" className="carousel slide">
                     <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img
-                                src="./images/5a.jpg"
-                                className="d-block w-100"
-                                alt="..."
-                            />
-                        </div>
                         <div className="carousel-item">
                             <img
                                 src="./images/11a.jpg"
@@ -63,6 +56,13 @@ export default function Home({ data }: Props) {
                         <div className="carousel-item">
                             <img
                                 src="./images/15a.jpg"
+                                className="d-block w-100"
+                                alt="..."
+                            />
+                        </div>
+                        <div className="carousel-item active">
+                            <img
+                                src="./images/5a.jpg"
                                 className="d-block w-100"
                                 alt="..."
                             />
