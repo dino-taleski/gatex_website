@@ -30,10 +30,11 @@ const Shop = () => {
                 </div>
                 <div
                     style={{
-                        paddingInline: "10px",
                         display: "grid",
                         gridTemplateColumns: "repeat(3, 1fr)",
-                        gap: "30px",
+                        gap: "40px",
+                        paddingInline: "40px",
+                        paddingBottom: "40px",
                     }}
                 >
                     <ProductCard />

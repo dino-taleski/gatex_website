@@ -1,0 +1,16 @@
+.main_footer_div {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 180px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.217);
+}
+
+.ul_reset {
+    list-style: none;
+}
+
+.ul_reset li {
+    margin-bottom: 10px;
+}

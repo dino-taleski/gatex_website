@@ -194,7 +194,6 @@ export default function Home({ data }: Props) {
                         <p className={styles.steps_text}>Pay upon delivery</p>
                     </div>
                 </div>
-                <Footer />
             </main>
         </>
     );
