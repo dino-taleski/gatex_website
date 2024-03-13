@@ -22,19 +22,42 @@ const Footer = () => {
                 </div>
                 <div>
                     <ul className={styles.ul_reset}>
+                        <li>Кратки линкови</li>
                         <Link href={"/shop"}>
                             <li>Shop</li>
                         </Link>
-                        <li>Link 1</li>
-                        <li>Link 1</li>
-                        <li>Link 1</li>
+                        <Link href={"/location"}>
+                            <li>Локација</li>
+                        </Link>
+                        <Link href={"/about-us"}>
+                            <li>За Нас</li>
+                        </Link>
+                        <Link href={"/contact"}>
+                            <li>Контакт</li>
+                        </Link>
                     </ul>
                 </div>
                 <div>
                     <ul className={styles.ul_reset}>
-                        <li>social 1</li>
-                        <li>social 2</li>
-                        <li>social 3</li>
+                        <li>Социјални медиуми</li>
+                        <li>
+                            <i
+                                style={{
+                                    fontSize: "35px",
+                                    color: "rgb(116, 146, 211)",
+                                }}
+                                className="fa-brands fa-facebook"
+                            ></i>
+                        </li>
+                        <li>
+                            <i
+                                style={{
+                                    fontSize: "35px",
+                                    color: "rgb(116, 146, 211)",
+                                }}
+                                className="fa-brands fa-instagram"
+                            ></i>
+                        </li>
                     </ul>
                 </div>
             </div>
