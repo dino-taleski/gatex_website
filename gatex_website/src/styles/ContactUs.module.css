@@ -38,11 +38,11 @@
 .form_button_div {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .form_button {
     width: 100%;
-    margin-top: 20px;
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;

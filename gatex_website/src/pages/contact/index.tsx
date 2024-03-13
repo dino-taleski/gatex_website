@@ -65,9 +65,8 @@ const ContactPage = () => {
                                 className={styles.input_textarea}
                                 name="message"
                                 id="message"
-                                cols="30"
-                                rows="5"
                                 placeholder="Внесете ја вашата порака"
+                                rows={5}
                                 required
                             ></textarea>
                         </div>
