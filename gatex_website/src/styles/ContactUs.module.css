@@ -1,0 +1,36 @@
+.contact_us_main_form {
+    margin-inline: 80px;
+    padding-bottom: 20px;
+}
+
+.input_label_group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.input_label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input_label label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.input_label input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.input_textarea {
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* optimize for mobile */
