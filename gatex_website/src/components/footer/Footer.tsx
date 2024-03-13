@@ -23,16 +23,16 @@ const Footer = () => {
                 <div>
                     <ul className={styles.ul_reset}>
                         <li>Кратки линкови</li>
-                        <Link href={"/shop"}>
+                        <Link href={"/shop/"}>
                             <li>Shop</li>
                         </Link>
-                        <Link href={"/location"}>
+                        <Link href={"/location/"}>
                             <li>Локација</li>
                         </Link>
-                        <Link href={"/about-us"}>
+                        <Link href={"/about-us/"}>
                             <li>За Нас</li>
                         </Link>
-                        <Link href={"/contact"}>
+                        <Link href={"/contact/"}>
                             <li>Контакт</li>
                         </Link>
                     </ul>

@@ -25,6 +25,9 @@ const Header = () => {
                     <Link href={"/about-us/"}>
                         <li>За Нас</li>
                     </Link>
+                    <Link href={"/contact/"}>
+                        <li>Контакт</li>
+                    </Link>
                 </ul>
                 <ul className={`${styles.ul} ${styles.cart}`}>
                     <li>Корпа</li>
