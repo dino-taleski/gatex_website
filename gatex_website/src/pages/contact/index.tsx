@@ -22,21 +22,41 @@ const ContactPage = () => {
                         <div className={styles.input_label_group}>
                             <div className={styles.input_label}>
                                 <label htmlFor="name">Име</label>
-                                <input type="text" id="name" />
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="Внесете го вашето име"
+                                    required
+                                />
                             </div>
                             <div className={styles.input_label}>
                                 <label htmlFor="surname">Презиме</label>
-                                <input type="text" id="surname" />
+                                <input
+                                    type="text"
+                                    id="surname"
+                                    placeholder="Внесете го вашето презиме"
+                                    required
+                                />
                             </div>
                         </div>
                         <div className={styles.input_label_group}>
                             <div className={styles.input_label}>
                                 <label htmlFor="email">Е-Пошта</label>
-                                <input type="text" id="email" />
+                                <input
+                                    type="text"
+                                    id="email"
+                                    placeholder="Внесете ја вашата е-пошта"
+                                    required
+                                />
                             </div>
                             <div className={styles.input_label}>
                                 <label htmlFor="number">Број</label>
-                                <input type="text" id="number" />
+                                <input
+                                    type="text"
+                                    id="number"
+                                    placeholder="Внесете го вашиот број"
+                                    required
+                                />
                             </div>
                         </div>
                         <div className={styles.input_label}>
@@ -47,7 +67,14 @@ const ContactPage = () => {
                                 id="message"
                                 cols="30"
                                 rows="5"
+                                placeholder="Внесете ја вашата порака"
+                                required
                             ></textarea>
+                        </div>
+                        <div className={styles.form_button_div}>
+                            <button className={styles.form_button}>
+                                ИСПРАТИ
+                            </button>
                         </div>
                     </form>
                 </div>

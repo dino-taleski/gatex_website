@@ -25,12 +25,38 @@
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(151, 151, 151);
+    box-shadow: 2px 5px 8px rgb(211, 211, 211);
 }
 
 .input_textarea {
     border: 1px solid rgb(151, 151, 151);
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 2px 5px 8px rgb(211, 211, 211);
+}
+
+.form_button_div {
+    display: flex;
+    justify-content: center;
+}
+
+.form_button {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 1px solid rgb(175, 175, 175);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 2px 5px 8px rgb(211, 211, 211);
+    font-weight: bold;
+}
+
+.form_button:hover {
+    cursor: pointer;
+    background-color: rgb(116, 146, 211);
+    color: white;
 }
 
 /* optimize for mobile */
