@@ -27,7 +27,7 @@ const AboutUsPage = () => {
                         <p className={styles.about_us_heading}>
                             This is our shop
                         </p>
-                        <p>
+                        <p className={styles.about_us_text}>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Nesciunt eum, consectetur tempora voluptates
                             rem ab quas dolorum inventore totam sequi, est
