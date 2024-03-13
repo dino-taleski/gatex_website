@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <ul className={styles.ul_reset}>
-                        <li>Кратки линкови</li>
+                        <li>Корисни линкови</li>
                         <Link href={"/shop/"}>
                             <li>Shop</li>
                         </Link>

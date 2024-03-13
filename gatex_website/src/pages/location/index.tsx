@@ -1,6 +1,6 @@
 import React from "react";
 
-const index = () => {
+const LocationPage = () => {
     return (
         <>
             <p
@@ -28,4 +28,4 @@ const index = () => {
     );
 };
 
-export default index;
+export default LocationPage;
